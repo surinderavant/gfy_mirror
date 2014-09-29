@@ -447,7 +447,7 @@ if __name__ == "__main__":
         exit_bot()
 
     # read off /r/soccer
-    soccer_subreddit = r.get_subreddit('soccer')
+    soccer_subreddit = r.get_subreddit('all')
 
     load_caches()
     counter = 0
