@@ -25,7 +25,7 @@ cache_file = "gfy_mirror_DB"
 propsFile = "login1.json"
 
 # for keeping track of if we're on Heroku
-running_on_heroku = False
+running_on_heroku = True
 
 # Dry runs
 dry_run = False
