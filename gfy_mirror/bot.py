@@ -22,7 +22,7 @@ __author__ = 'Henri Sweers'
 cache_file = "gfy_mirror_DB"
 
 # File with login credentials
-propsFile = "login.json"
+propsFile = "login1.json"
 
 # for keeping track of if we're on Heroku
 running_on_heroku = False
@@ -223,7 +223,7 @@ def retrieve_login_credentials():
         return login_info
     else:
         # reading login info from a file, it should be username \n password
-        with open("login.json", "r") as loginFile:
+        with open("login1.json", "r") as loginFile:
             login_info = json.loads(loginFile.read())
 
         login_info[0] = login_info["user"]
